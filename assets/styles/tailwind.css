@@ -13,6 +13,6 @@
 
 @layer base {
   a {
-    @apply hover:text-cyan-500 hover:underline;
+    @apply w-max hover:text-cyan-500 hover:underline;
   }
 }
