@@ -13,9 +13,38 @@
       src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
   </head>
 
-  <body>
-    <section class="flex items-center justify-center w-full h-screen">
-      <h1 class="text-5xl">Hello World</h1>
-    </section>
+  <body class="min-h-screen">
+    <!-- START: Page -->
+    <div class="bg-gradient-to-b from-gray-50 to-gray-100 min-h-screen">
+      <!-- START: Header -->
+      <div
+        class="flex flex-row justify-between px-20 py-10 text-lg font-semibold">
+        <!-- START: Logo -->
+        <div class="my-auto text-4xl">JH</div>
+        <!-- END: Logo -->
+        <!-- START: Navigation -->
+        <nav class="gap-x-10 flex flex-row my-auto">
+          <a href="#">About Me</a>
+          <a href="#">Experience</a>
+          <a href="#">Contact</a>
+        </nav>
+        <!-- END: Navigation -->
+      </div>
+      <!-- END: Header -->
+      <!-- START: Hero -->
+      <section id="hero" class="layout mx-auto">
+        <div class="flex flex-col">
+          <p
+          class="bg-gradient-to-r from-blue-400 to-blue-700 bg-clip-text text-7xl font-extrabold text-transparent uppercase">
+          Jake Harvanchik
+          <p class="text-3xl font-semibold text-blue-600">
+            Welcome to my page.
+          </p>
+          </p>
+        </div>
+      </section>
+      <!-- END: Hero -->
+    </div>
+    <!-- END: Page -->
   </body>
 </html>
