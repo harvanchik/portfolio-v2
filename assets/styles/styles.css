@@ -589,6 +589,13 @@ select {
   outline: 1px auto -webkit-focus-ring-color;
 }
 
+a:hover {
+  --tw-text-opacity: 1;
+  color: rgb(6 182 212 / var(--tw-text-opacity));
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+}
+
 *, ::before, ::after {
   --tw-translate-x: 0;
   --tw-translate-y: 0;
@@ -657,6 +664,10 @@ select {
 
 .mb-1 {
   margin-bottom: 0.25rem;
+}
+
+.ml-4 {
+  margin-left: 1rem;
 }
 
 .mt-2 {
@@ -735,10 +746,6 @@ select {
   max-width: 56rem;
 }
 
-.list-inside {
-  list-style-position: inside;
-}
-
 .list-disc {
   list-style-type: disc;
 }
@@ -787,6 +794,11 @@ select {
 
 .gap-y-2 {
   row-gap: 0.5rem;
+}
+
+.gap-x-2 {
+  -moz-column-gap: 0.5rem;
+       column-gap: 0.5rem;
 }
 
 .gap-x-1 {
@@ -908,11 +920,6 @@ select {
   padding-bottom: 2.5rem;
 }
 
-.px-2 {
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-}
-
 .px-6 {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
@@ -940,6 +947,10 @@ select {
 
 .pt-10 {
   padding-top: 2.5rem;
+}
+
+.pb-80 {
+  padding-bottom: 20rem;
 }
 
 .text-center {
@@ -979,6 +990,11 @@ select {
   line-height: 1.25rem;
 }
 
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
@@ -1002,6 +1018,10 @@ select {
 
 .italic {
   font-style: italic;
+}
+
+.tracking-wider {
+  letter-spacing: 0.05em;
 }
 
 .text-transparent {
@@ -1059,21 +1079,40 @@ select {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-a:hover {
-  --tw-text-opacity: 1;
-  color: rgb(6 182 212 / var(--tw-text-opacity));
-  -webkit-text-decoration-line: underline;
-          text-decoration-line: underline;
+.selection\:bg-cyan-500\/75 *::-moz-selection {
+  background-color: rgb(6 182 212 / 0.75);
 }
 
-.hover\:text-cyan-500:hover {
-  --tw-text-opacity: 1;
-  color: rgb(6 182 212 / var(--tw-text-opacity));
+.selection\:bg-cyan-500\/75 *::selection {
+  background-color: rgb(6 182 212 / 0.75);
 }
 
-.hover\:underline:hover {
-  -webkit-text-decoration-line: underline;
-          text-decoration-line: underline;
+.selection\:text-white *::-moz-selection {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.selection\:text-white *::selection {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.selection\:bg-cyan-500\/75::-moz-selection {
+  background-color: rgb(6 182 212 / 0.75);
+}
+
+.selection\:bg-cyan-500\/75::selection {
+  background-color: rgb(6 182 212 / 0.75);
+}
+
+.selection\:text-white::-moz-selection {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.selection\:text-white::selection {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .focus\:border-indigo-300:focus {
@@ -1153,6 +1192,26 @@ a:hover {
 
 .focus\:ring-offset-2:focus {
   --tw-ring-offset-width: 2px;
+}
+
+@media print {
+  .print\:pb-0 {
+    padding-bottom: 0px;
+  }
+
+  .print\:pt-0 {
+    padding-top: 0px;
+  }
+
+  .print\:text-xs {
+    font-size: 0.75rem;
+    line-height: 1rem;
+  }
+
+  .print\:no-underline {
+    -webkit-text-decoration-line: none;
+            text-decoration-line: none;
+  }
 }
 
 @media (min-width: 768px) {
