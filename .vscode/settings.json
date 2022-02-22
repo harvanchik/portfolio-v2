@@ -2,11 +2,17 @@
     "cSpell.words": [
         "Bukkit",
         "Clarita",
+        "Cpath",
         "CSUF",
+        "Csvg",
+        "Gaegu",
         "Gridster",
         "NIRSA",
         "Parens",
         "Purpur",
-        "Stillwater"
-    ]
+        "Stillwater",
+        "textshadow"
+    ],
+    "liveServer.settings.host": "localhost",
+    "liveServer.settings.port": 1313
 }

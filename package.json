@@ -1,7 +1,7 @@
 {
   "name": "portfolio-v2",
   "version": "1.0.0",
-  "description": "Jake Harvanchik's TPortfolio Website",
+  "description": "Jake Harvanchik's Online Portfolio",
   "author": "Jake Harvanchik",
   "main": "index.js",
   "scripts": {
@@ -30,6 +30,7 @@
     "postcss": "^8.4.6",
     "prettier": "^2.5.1",
     "prettier-plugin-tailwindcss": "^0.1.7",
-    "tailwindcss": "^3.0.23"
+    "tailwindcss": "^3.0.23",
+    "tailwindcss-textshadow": "^2.1.3"
   }
 }
