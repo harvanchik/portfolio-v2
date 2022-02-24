@@ -778,6 +778,10 @@ a:hover{
   margin-top: 0px;
 }
 
+.mb-\[5px\]{
+  margin-bottom: 5px;
+}
+
 .block{
   display: block;
 }
@@ -1164,6 +1168,10 @@ a:hover{
   line-height: 2rem;
 }
 
+.text-\[10px\]{
+  font-size: 10px;
+}
+
 .font-semibold{
   font-weight: 600;
 }
@@ -1182,6 +1190,10 @@ a:hover{
 
 .italic{
   font-style: italic;
+}
+
+.leading-tight{
+  line-height: 1.25;
 }
 
 .tracking-tighter{
@@ -1247,11 +1259,6 @@ a:hover{
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-.brightness-105{
-  --tw-brightness: brightness(1.05);
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-}
-
 .brightness-125{
   --tw-brightness: brightness(1.25);
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
@@ -1263,10 +1270,6 @@ a:hover{
 
 .text-shadow-sm{
   text-shadow: 1px 1px 3px rgb(36 37 47 / 25%);
-}
-
-.text-shadow-xl{
-  text-shadow: 1px 1px 3px rgb(0 0 0 / 29%), 2px 4px 7px rgb(73 64 125 / 35%);
 }
 
 .selection\:bg-cyan-500\/75 *::-moz-selection{
@@ -1385,8 +1388,20 @@ a:hover{
 }
 
 @media print{
+  .print\:inline{
+    display: inline;
+  }
+
+  .print\:hidden{
+    display: none;
+  }
+
   .print\:max-w-\[700px\]{
     max-width: 700px;
+  }
+
+  .print\:max-w-none{
+    max-width: none;
   }
 
   .print\:pb-0{
@@ -1400,6 +1415,32 @@ a:hover{
   .print\:text-xs{
     font-size: 0.75rem;
     line-height: 1rem;
+  }
+
+  .print\:text-\[10px\]{
+    font-size: 10px;
+  }
+
+  .print\:text-lg{
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
+  .print\:text-base{
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .print\:text-\[8px\]{
+    font-size: 8px;
+  }
+
+  .print\:text-\[9px\]{
+    font-size: 9px;
+  }
+
+  .print\:leading-3{
+    line-height: .75rem;
   }
 
   .print\:no-underline{
