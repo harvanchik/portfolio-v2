@@ -15,15 +15,9 @@
   "license": "ISC",
   "devDependencies": {
     "@tailwindcss/forms": "^0.5.0",
-<<<<<<< HEAD
     "autoprefixer": "^10.4.4",
     "cross-env": "^7.0.3",
     "cssnano": "^5.1.4",
-=======
-    "autoprefixer": "^10.4.2",
-    "cross-env": "^7.0.3",
-    "cssnano": "^5.1.0",
->>>>>>> aba7f9376595dddf50e8636836ab8e444c0d78d5
     "del": "^6.0.0",
     "gulp": "^4.0.2",
     "gulp-htmlmin": "^5.0.1",
@@ -32,15 +26,9 @@
     "gulp-rev": "^9.0.0",
     "gulp-rev-rewrite": "^5.0.0",
     "gulp-svgmin": "^4.1.0",
-<<<<<<< HEAD
     "npm-check-updates": "^12.5.4",
     "postcss": "^8.4.12",
     "prettier": "^2.6.0",
-=======
-    "npm-check-updates": "^12.5.2",
-    "postcss": "^8.4.7",
-    "prettier": "^2.5.1",
->>>>>>> aba7f9376595dddf50e8636836ab8e444c0d78d5
     "prettier-plugin-tailwindcss": "^0.1.8",
     "tailwindcss": "^3.0.23",
     "tailwindcss-textshadow": "^2.1.3"
