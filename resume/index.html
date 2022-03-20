@@ -2,12 +2,21 @@
 <html id="resume" lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
     <title>Jake Harvanchik | Resume</title>
     <link rel="stylesheet" href="/assets/styles/styles.css" />
     <!-- START: Scripts -->
-    <script src="https://kit.fontawesome.com/4f831b6978.js" crossorigin="anonymous"></script>
-    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/4f831b6978.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      defer
+      src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"
+    ></script>
     <!-- END: Scripts -->
     <!-- START: Versions -->
     <!-- V1: Computer Science -->
@@ -15,19 +24,25 @@
     <!-- END: Versions -->
   </head>
   <!-- TODO: fix text not being smaller in print version -->
+
   <body
     x-data="{ version: new URLSearchParams(location.search).get('v') || '1' }"
-    class="layout relative mx-auto h-full max-w-[750px] pt-10 pb-80 font-serif text-xs selection:bg-cyan-500/75 selection:text-white print:max-w-[700px] print:pb-0 print:pt-0 print:text-xs xs:text-sm">
+    class="layout relative mx-auto h-full max-w-[750px] pt-10 pb-80 font-serif text-xs selection:bg-cyan-500/75 selection:text-white print:max-w-[700px] print:pb-0 print:pt-0 print:text-xs xs:text-sm"
+  >
     <!-- START: Page -->
     <div class="gap-y-2 flex flex-col">
       <!-- START: Header -->
       <section id="header" class="flex flex-col text-center">
         <h1 class="print:text-base text-xl font-bold">Jake Harvanchik</h1>
-        <a href="https://goo.gl/maps/mQ9rL8scAhPr5SRJ6" target="_blank" class="mx-auto"
+        <a
+          href="https://goo.gl/maps/mQ9rL8scAhPr5SRJ6"
+          target="_blank"
+          class="mx-auto"
           >Stevenson Ranch, California 91381</a
         >
         <p
-          class="mx-auto flex max-w-[600px] flex-row flex-wrap justify-around gap-x-1 print:max-w-none print:text-[10px] md:max-w-none">
+          class="mx-auto flex max-w-[600px] flex-row flex-wrap justify-around gap-x-1 print:max-w-none print:text-[10px] md:max-w-none"
+        >
           <!-- START: Cell Number -->
           <a href="tel:+16618033757" class="gap-x-1 flex flex-row">
             <i class="fa-solid fa-phone my-auto"></i>
@@ -36,32 +51,50 @@
           <!-- END: Cell Number -->
           <span class="print:inline md:inline hidden">|</span>
           <!-- START: Email Address -->
-          <a href="mailto:resume@harvanchik.me" target="_blank" class="gap-x-1 flex flex-row">
+          <a
+            href="mailto:resume@harvanchik.me"
+            target="_blank"
+            class="gap-x-1 flex flex-row"
+          >
             <i class="fa-solid fa-envelope my-auto"></i>
             <span class="my-auto">resume@harvanchik.me</span>
           </a>
           <!-- END: Email Address -->
-          <template  x-if="version === '1'">
-          <span class="print:inline hidden md:inline">|</span>
-          <!-- START: Online Portfolio -->
-            <a href="https://jake.harvanchik.me" target="_blank" class="flex flex-row gap-x-1">
+          <template x-if="version === '1'">
+            <span class="print:inline hidden md:inline">|</span>
+            <!-- START: Online Portfolio -->
+            <a
+              href="https://jake.harvanchik.me"
+              target="_blank"
+              class="flex flex-row gap-x-1"
+            >
               <i class="fa-solid fa-laptop-code my-auto"></i>
-                <span class="my-auto">jake.harvanchik.me</span>
+              <span class="my-auto">jake.harvanchik.me</span>
             </a>
           </template>
-            <!-- END: Online Portfolio -->
-            <span class="hidden md:inline">|</span>
+          <!-- END: Online Portfolio -->
+          <span class="hidden md:inline">|</span>
           <!-- START: Linked In -->
-          <a href="https://www.linkedin.com/in/harvanchik" target="_blank" class="gap-x-1 flex flex-row">
+          <a
+            href="https://www.linkedin.com/in/harvanchik"
+            target="_blank"
+            class="gap-x-1 flex flex-row"
+          >
             <i class="fa-brands fa-linkedin-in my-auto"></i>
-            <span class="print:inline hidden my-auto">linkedin.com/in/harvanchik</span>
+            <span class="print:inline hidden my-auto"
+              >linkedin.com/in/harvanchik</span
+            >
             <span class="print:hidden inline my-auto">harvanchik</span>
           </a>
           <!-- END: Linked In -->
-          <template  x-if="version === '1'">
-          <span class="print:inline hidden md:inline">|</span>
-          <!-- START: GitHub -->
-            <a href="https://github.com/harvanchik" target="_blank" class="flex flex-row gap-x-1">
+          <template x-if="version === '1'">
+            <span class="print:inline hidden md:inline">|</span>
+            <!-- START: GitHub -->
+            <a
+              href="https://github.com/harvanchik"
+              target="_blank"
+              class="flex flex-row gap-x-1"
+            >
               <i class="fa-brands fa-github my-auto"></i>
               <span class="my-auto">harvanchik</span>
             </a>
@@ -73,12 +106,20 @@
 
       <!-- START: Education -->
       <section id="education">
-        <h2 class="mb-[5px] w-full border-b border-black font-bold uppercase tracking-wider">Education</h2>
+        <h2
+          class="mb-[5px] w-full border-b border-black font-bold uppercase tracking-wider"
+        >
+          Education
+        </h2>
         <div class="flex flex-col gap-y-1.5">
           <div class="flex flex-row justify-between">
             <div class="flex flex-col">
               <p class="font-bold">Bachelor of Science, Computer Science</p>
-              <a href="https://www.fullerton.edu" target="_blank" class="italic">
+              <a
+                href="https://www.fullerton.edu"
+                target="_blank"
+                class="italic"
+              >
                 California State University, Fullerton
               </a>
             </div>
@@ -93,15 +134,19 @@
       <!-- END: Education -->
 
       <!-- START: Related Courses -->
-      <template  x-if="version === '1'">
+      <template x-if="version === '1'">
         <section id="related-courses">
-          <h2 class="mb-[5px] w-full border-b border-black font-bold uppercase tracking-wider">
+          <h2
+            class="mb-[5px] w-full border-b border-black font-bold uppercase tracking-wider"
+          >
             Related Courses
           </h2>
           <div class="flex flex-col gap-y-1.5">
             <ul class="ml-4 w-full list-disc columns-2 gap-x-20">
               <li class="min-w-max">
-                <span class="min-w-max xs:inline hidden">Object-Oriented Programming</span>
+                <span class="min-w-max xs:inline hidden"
+                  >Object-Oriented Programming</span
+                >
                 <span class="xs:hidden">Object Oriented Program.</span>
                 <span class="italic"> | Java</span>
               </li>
@@ -115,7 +160,9 @@
               </li>
               <li class="min-w-max">Calculus I, II, III</li>
               <li class="min-w-max">Statistics & Discrete Math</li>
-              <li class="hidden min-w-max xs:list-item">Visual Basic for Applications</li>
+              <li class="hidden min-w-max xs:list-item">
+                Visual Basic for Applications
+              </li>
               <li class="min-w-max xs:hidden">Visual Basic for Apps.</li>
             </ul>
           </div>
@@ -124,9 +171,11 @@
       <!-- END: Related Courses -->
 
       <!-- START: Technical Skills -->
-      <template  x-if="version === '1'">
+      <template x-if="version === '1'">
         <section id="technical-skills">
-          <h2 class="mb-[5px] w-full border-b border-black font-bold uppercase tracking-wider">
+          <h2
+            class="mb-[5px] w-full border-b border-black font-bold uppercase tracking-wider"
+          >
             Technical Skills
           </h2>
           <div class="flex flex-col gap-y-1.5">
@@ -134,8 +183,12 @@
               <li>
                 <span class="font-bold">Languages:</span>
                 <a href="https://www.java.com" target="_blank">Java,</a>
-                <a href="https://www.javascript.com" target="_blank">JavaScript,</a>
-                <a href="https://www.typescriptlang.org" target="_blank">TypeScript,</a>
+                <a href="https://www.javascript.com" target="_blank"
+                  >JavaScript,</a
+                >
+                <a href="https://www.typescriptlang.org" target="_blank"
+                  >TypeScript,</a
+                >
                 <a href="http://www.cplusplus.org" target="_blank">C++,</a>
                 <span>SQL,</span>
                 <span>HTML,</span>
@@ -152,17 +205,29 @@
               </li>
               <li>
                 <span class="font-bold">Operating Systems:</span>
-                <a href="https://www.microsoft.com/windows" target="_blank">Windows,</a>
+                <a href="https://www.microsoft.com/windows" target="_blank"
+                  >Windows,</a
+                >
                 <a href="https://www.apple.com/mac" target="_blank">Mac,</a>
                 <a href="https://git-scm.com" target="_blank">Git,</a>
                 <a href="https://github.com" target="_blank">Github,</a>
-                <a href="https://desktop.github.com" target="_blank">Github Desktop</a>
+                <a href="https://desktop.github.com" target="_blank"
+                  >Github Desktop</a
+                >
               </li>
               <li>
                 <span class="font-bold">Other:</span>
-                <a href="https://www.office.com" target="_blank">Microsoft Office,</a>
-                <a href="https://workspace.google.com/features" target="_blank">Google Sheets/Docs/Slides,</a>
-                <a href="https://www.adobe.com/creativecloud.html" target="_blank">Adobe Products</a>
+                <a href="https://www.office.com" target="_blank"
+                  >Microsoft Office,</a
+                >
+                <a href="https://workspace.google.com/features" target="_blank"
+                  >Google Sheets/Docs/Slides,</a
+                >
+                <a
+                  href="https://www.adobe.com/creativecloud.html"
+                  target="_blank"
+                  >Adobe Products</a
+                >
               </li>
             </ul>
           </div>
@@ -172,16 +237,25 @@
 
       <!-- START: Work Experience -->
       <section id="work-experience">
-        <h2 class="mb-[5px] w-full border-b border-black font-bold uppercase">Work Experience</h2>
+        <h2 class="mb-[5px] w-full border-b border-black font-bold uppercase">
+          Work Experience
+        </h2>
         <div class="flex flex-col gap-y-1.5">
           <!-- START: DiD Integration -->
           <div class="gap-y-1 flex flex-col">
             <div class="flex flex-row justify-between">
               <div class="flex flex-col">
                 <p class="font-bold">Junior Software Developer</p>
-                <a href="https://didintegration.com" target="_blank" class="italic">DiD Integration, Inc.</a>
+                <a
+                  href="https://didintegration.com"
+                  target="_blank"
+                  class="italic"
+                  >DiD Integration, Inc.</a
+                >
               </div>
-              <div class="font-xs sm:font-sm min-w-max flex flex-col text-right">
+              <div
+                class="font-xs sm:font-sm min-w-max flex flex-col text-right"
+              >
                 <p class="xs:inline hidden">July 2020 - November 2021</p>
                 <p class="xs:hidden">July '20 - Nov. '21</p>
                 <p>Valencia, CA</p>
@@ -190,17 +264,26 @@
             <ul class="ml-4 list-disc">
               <li>
                 Redesigned the
-                <a href="https://agknowledge.com" target="_blank" class="print:no-underline underline">
+                <a
+                  href="https://agknowledge.com"
+                  target="_blank"
+                  class="print:no-underline underline"
+                >
                   company website
                 </a>
                 from scratch using
-                <a href="https://tailwindcss.com/" target="_blank">Tailwind CSS</a>
+                <a href="https://tailwindcss.com/" target="_blank"
+                  >Tailwind CSS</a
+                >
               </li>
-              <li
-                >Configured back-end process for retrieving database records using Apache, Tomcat, REST, and
-                MySQL</li
-              >
-              <li>Designed front-end web applications using Angular on a client-need basis</li>
+              <li>
+                Configured back-end process for retrieving database records
+                using Apache, Tomcat, REST, and MySQL
+              </li>
+              <li>
+                Designed front-end web applications using Angular on a
+                client-need basis
+              </li>
             </ul>
           </div>
           <!-- END: DiD Integration -->
@@ -209,7 +292,11 @@
             <div class="flex flex-row justify-between">
               <div class="flex flex-col">
                 <p class="font-bold">Residential Advisor (RA)</p>
-                <a href="https://reslife.okstate.edu" target="_blank" class="italic">
+                <a
+                  href="https://reslife.okstate.edu"
+                  target="_blank"
+                  class="italic"
+                >
                   Housing and Residential Life
                 </a>
               </div>
@@ -221,32 +308,44 @@
             </div>
             <ul class="ml-4 list-disc">
               <li>Oversaw 40+ student residents in on-campus housing</li>
-              <li>Responded to urgent requests from residents and on-campus police while on-call at night</li>
-              <li>Defused chaotic situations involving, but not limited to, alcohol and drugs</li>
-              <li>Recounted in great detail incidents within the housing community</li>
+              <li>
+                Responded to urgent requests from residents and on-campus police
+                while on-call at night
+              </li>
+              <li>
+                Defused chaotic situations involving, but not limited to,
+                alcohol and drugs
+              </li>
+              <li>
+                Recounted in great detail incidents within the housing community
+              </li>
             </ul>
           </div>
           <!-- END: Residential Advisor -->
           <!-- TODO: Conditionally display this based on url parameters -->
           <!-- START: Summer Camp Counselor -->
-          <template x-if="version === '2'" >
+          <template x-if="version === '2'">
             <div class="flex flex-col gap-y-1">
-                <div class="flex flex-row justify-between">
-                  <div class="flex flex-col">
-                    <p class="font-bold">Summer Camp Counselor</p>
-                    <a href="https://www.cadence-education.com/locations/ca/valencia/651" target="_blank" class="italic">
-                      Cadence Academy (Sunshine)
-                    </a>
-                  </div>
-                  <div class="flex min-w-max flex-col text-right">
-                    <p class="hidden xs:inline">June 2019 - August 2019</p>
-                    <p class="xs:hidden">June '19 - Aug. '19</p>
-                    <p>Valencia, CA</p>
-                  </div>
+              <div class="flex flex-row justify-between">
+                <div class="flex flex-col">
+                  <p class="font-bold">Summer Camp Counselor</p>
+                  <a
+                    href="https://www.cadence-education.com/locations/ca/valencia/651"
+                    target="_blank"
+                    class="italic"
+                  >
+                    Cadence Academy (Sunshine)
+                  </a>
                 </div>
-                <ul class="ml-4 list-disc">
-                  <li></li>
-                </ul>
+                <div class="flex min-w-max flex-col text-right">
+                  <p class="hidden xs:inline">June 2019 - August 2019</p>
+                  <p class="xs:hidden">June '19 - Aug. '19</p>
+                  <p>Valencia, CA</p>
+                </div>
+              </div>
+              <ul class="ml-4 list-disc">
+                <li></li>
+              </ul>
             </div>
           </template>
           <!-- END: Summer Camp Counselor -->
@@ -255,7 +354,11 @@
             <div class="flex flex-row justify-between">
               <div class="flex flex-col">
                 <p class="font-bold">Intramural Sports Supervisor</p>
-                <a href="https://wellness.okstate.edu/competitive-sports" target="_blank" class="italic">
+                <a
+                  href="https://wellness.okstate.edu/competitive-sports"
+                  target="_blank"
+                  class="italic"
+                >
                   Department of Wellness
                 </a>
               </div>
@@ -266,12 +369,26 @@
               </div>
             </div>
             <ul class="ml-4 list-disc">
-              <li>Officiated basketball, flag football, softball, volleyball, soccer, and floor hockey</li>
-              <li>Trained new officials in various sports by giving presentations on the rules</li>
-              <li>Addressed unruly players, teams, or crowds when the officials were overwhelmed</li>
+              <li>
+                Officiated basketball, flag football, softball, volleyball,
+                soccer, and floor hockey
+              </li>
+              <li>
+                Trained new officials in various sports by giving presentations
+                on the rules
+              </li>
+              <li>
+                Addressed unruly players, teams, or crowds when the officials
+                were overwhelmed
+              </li>
               <li>
                 <span>Travelled out-of-state to officiate</span>
-                <a href="https://nirsa.net" target="_blank" class="print:no-underline underline">NIRSA</a>
+                <a
+                  href="https://nirsa.net"
+                  target="_blank"
+                  class="print:no-underline underline"
+                  >NIRSA</a
+                >
                 <span>sanctioned tournaments</span>
               </li>
             </ul>
@@ -283,7 +400,11 @@
       <!-- START: Projects -->
       <template x-if="version === '1'">
         <section id="projects">
-          <h2 class="mb-[5px] w-full border-b border-black font-bold uppercase tracking-wider">Projects</h2>
+          <h2
+            class="mb-[5px] w-full border-b border-black font-bold uppercase tracking-wider"
+          >
+            Projects
+          </h2>
           <div class="flex flex-col gap-y-1.5">
             <!-- START: Blockey Hockey -->
             <div class="flex flex-col gap-y-1">
@@ -291,7 +412,8 @@
                 <div class="flex flex-col">
                   <p class="font-bold">Blockey Hockey</p>
                   <p class="italic">
-                    Technologies: Angular, TypeScript, HTML, CSS, Java, REST, MySQL, Github Pages
+                    Technologies: Angular, TypeScript, HTML, CSS, Java, REST,
+                    MySQL, Github Pages
                   </p>
                 </div>
                 <div class="flex min-w-max flex-col text-right">
@@ -302,19 +424,37 @@
               <ul class="ml-4 list-disc">
                 <li>
                   <span>What started out as a simple command block-based</span>
-                  <a href="https://www.minecraft.net" target="_blank" class="underline print:no-underline">
+                  <a
+                    href="https://www.minecraft.net"
+                    target="_blank"
+                    class="underline print:no-underline"
+                  >
                     Minecraft</a
                   >
                   <span>mini-game,</span>
-                  <a href="https://youtu.be/n7iLQbPl4Rg" target="_blank" class="underline print:no-underline">
+                  <a
+                    href="https://youtu.be/n7iLQbPl4Rg"
+                    target="_blank"
+                    class="underline print:no-underline"
+                  >
                     Blockey Hockey</a
                   >
-                  <span>has evolved into a full-stack, Java-developed Minecraft plugin using the</span>
-                  <a href="https://papermc.io" target="_blank" class="underline print:no-underline">
+                  <span
+                    >has evolved into a full-stack, Java-developed Minecraft
+                    plugin using the</span
+                  >
+                  <a
+                    href="https://papermc.io"
+                    target="_blank"
+                    class="underline print:no-underline"
+                  >
                     Spigot/Paper API.</a
                   >
                   <span>Today, the game is accompanied by a</span>
-                  <a href="https://blockeyhockey.net" target="_blank" class="underline print:no-underline"
+                  <a
+                    href="https://blockeyhockey.net"
+                    target="_blank"
+                    class="underline print:no-underline"
                     >website</a
                   >
                   <span>and has fully automated, in-game </span>
@@ -335,7 +475,11 @@
                   <p class="font-bold">Drag and Drop Greenhouse</p>
                   <p class="italic">
                     Technologies: Angular, TypeScript, HTML, CSS,
-                    <a href="https://github.com/tiberiuzuld/angular-gridster2" target="_blank">Gridster API</a>
+                    <a
+                      href="https://github.com/tiberiuzuld/angular-gridster2"
+                      target="_blank"
+                      >Gridster API</a
+                    >
                   </p>
                 </div>
                 <div class="flex min-w-max flex-col text-right">
@@ -344,11 +488,13 @@
                 </div>
               </div>
               <ul class="ml-4 list-disc">
-                <li
-                  >While working at DiD Integration Inc., a client requested a solution for their inventory
-                  management/location problem. The goal was to programmatically manage hundreds of greenhouses
-                  by importing pallets with the ability to reorder the pallets by dragging and dropping.
-                  Ease-of-use and efficiency was a top priority.
+                <li>
+                  While working at DiD Integration Inc., a client requested a
+                  solution for their inventory management/location problem. The
+                  goal was to programmatically manage hundreds of greenhouses by
+                  importing pallets with the ability to reorder the pallets by
+                  dragging and dropping. Ease-of-use and efficiency was a top
+                  priority.
                 </li>
               </ul>
             </div>
@@ -359,6 +505,8 @@
       <!-- END: Projects -->
     </div>
     <!-- END: Page -->
-    <span class="w-max print:hidden absolute bottom-0 left-0 right-0 mx-auto">Created with HTML and CSS</span>
+    <span class="w-max print:hidden absolute bottom-0 left-0 right-0 mx-auto"
+      >Created with HTML and CSS</span
+    >
   </body>
 </html>
