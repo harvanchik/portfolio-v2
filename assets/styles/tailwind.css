@@ -17,4 +17,8 @@
   #resume * a {
     @apply w-max hover:text-cyan-500 hover:underline;
   }
+
+  [x-cloak] {
+    display: none !important;
+  }
 }
