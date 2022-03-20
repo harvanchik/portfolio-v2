@@ -3,5 +3,5 @@
   "bracketSameLine": true,
   "arrowParens": "avoid",
   "htmlWhitespaceSensitivity": "strict",
-  "printWidth": 110
+  "printWidth": 150
 }
