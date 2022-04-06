@@ -26,7 +26,7 @@
       <section id="header" class="flex flex-col text-center">
         <h1 class="text-xl font-bold print:text-base">Jake Harvanchik</h1>
         <a href="https://goo.gl/maps/mQ9rL8scAhPr5SRJ6" target="_blank" class="mx-auto">Stevenson Ranch, California 91381</a>
-        <span class="mx-auto flex max-w-[600px] flex-row flex-wrap justify-around gap-x-1 print:max-w-none print:text-[10px] md:max-w-none">
+        <span class="mx-auto flex max-w-[600px] flex-row flex-wrap justify-around gap-x-1 print:max-w-none print:text-[11px] md:max-w-none">
           <!-- START: Cell Number -->
           <a href="tel:+16618033757" class="flex flex-row gap-x-1">
             <i class="my-auto fa-solid fa-phone"></i>
@@ -40,7 +40,8 @@
             <span class="my-auto">resume@harvanchik.me</span>
           </a>
           <!-- END: Email Address -->
-          <div x-cloak x-show="version === '1'" class="flex flex-row space-x-1">
+          <!-- TODO: hidden until portfolio website complete -->
+          <div x-cloak x-show="version === '1'" class="flex-row hidden space-x-1">
             <span class="hidden print:inline md:inline">|</span>
             <!-- START: Online Portfolio -->
             <a href="https://jake.harvanchik.me" target="_blank" class="flex flex-row gap-x-1">
@@ -62,7 +63,8 @@
             <!-- START: GitHub -->
             <a href="https://github.com/harvanchik" target="_blank" class="flex flex-row gap-x-1">
               <i class="my-auto fa-brands fa-github"></i>
-              <span class="my-auto">harvanchik</span>
+              <span class="hidden my-auto print:inline">github.com/harvanchik</span>
+              <span class="inline my-auto print:hidden">harvanchik</span>
             </a>
           </div>
           <!-- END: GitHub -->
@@ -179,7 +181,7 @@
             <ul class="ml-4 list-disc">
               <li>
                 Redesigned the
-                <a href="https://agknowledge.com" target="_blank" class="underline print:no-underline"> company website </a>
+                <a href="https://agknowledge.com" target="_blank" class="underline print:no-underline"> subsidiary website </a>
                 from scratch using
                 <a href="https://tailwindcss.com/" target="_blank">Tailwind CSS</a>
               </li>
@@ -282,7 +284,7 @@
                 <span>Today, the game is accompanied by a</span>
                 <a href="https://blockeyhockey.net" target="_blank" class="underline print:no-underline">website</a>
                 <span>and has fully automated, in-game </span>
-                <a href="https://blockeyhockey.net/scores" target="_blank" class="underline print:no-underline">stat tracking.</a>
+                <a href="https://blockeyhockey.net/scores" target="_blank" class="underline print:no-underline">statistic tracking.</a>
               </li>
             </ul>
           </div>

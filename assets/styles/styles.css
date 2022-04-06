@@ -1638,6 +1638,10 @@ select{
     font-size: 10px;
   }
 
+  .print\:text-\[11px\]{
+    font-size: 11px;
+  }
+
   .print\:no-underline{
     -webkit-text-decoration-line: none;
             text-decoration-line: none;
