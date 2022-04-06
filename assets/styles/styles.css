@@ -1634,12 +1634,12 @@ select{
     line-height: 1.5rem;
   }
 
-  .print\:text-\[10px\]{
-    font-size: 10px;
-  }
-
   .print\:text-\[11px\]{
     font-size: 11px;
+  }
+
+  .print\:text-\[10px\]{
+    font-size: 10px;
   }
 
   .print\:no-underline{
