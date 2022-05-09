@@ -25,7 +25,7 @@
       <!-- START: Header -->
       <section id="header" class="flex flex-col text-center">
         <h1 class="text-xl font-bold print:text-base">Jake Harvanchik</h1>
-        <a href="https://goo.gl/maps/mQ9rL8scAhPr5SRJ6" target="_blank" class="mx-auto">Stevenson Ranch, California 91381</a>
+        <a href="https://goo.gl/maps/4xtWqqURzunLTXX6A" target="_blank" class="mx-auto">Fullerton, California 92833</a>
         <span class="mx-auto flex max-w-[600px] flex-row flex-wrap justify-around gap-x-1 print:max-w-none print:text-[11px] md:max-w-none">
           <!-- START: Cell Number -->
           <a href="tel:+16618033757" class="flex flex-row gap-x-1">
@@ -181,7 +181,7 @@
             <ul class="ml-4 list-disc">
               <li>
                 Redesigned the
-                <a href="https://agknowledge.com" target="_blank" class="underline print:no-underline"> subsidiary website </a>
+                <a href="https://agknowledge.com" target="_blank"> subsidiary website </a>
                 from scratch using
                 <a href="https://tailwindcss.com/" target="_blank">Tailwind CSS</a>
               </li>
@@ -206,8 +206,8 @@
             <ul class="ml-4 list-disc">
               <li>Oversaw 40+ student residents in on-campus housing</li>
               <li> Responded to urgent requests from residents and on-campus police while on-call at night </li>
-              <li> Defused chaotic situations involving, but not limited to, alcohol and drugs </li>
-              <li> Recounted in great detail incidents within the housing community </li>
+              <li> Defused chaotic situations involving &mdash; but not limited to &mdash; drugs, alcohol, and rowdy parties </li>
+              <li> Recounted in great detail incidents within the housing community for the purpose of filing reports </li>
             </ul>
           </div>
           <!-- END: Residential Advisor -->
@@ -225,7 +225,11 @@
               </div>
             </div>
             <ul class="ml-4 list-disc">
-              <li></li>
+              <li>Supervised groups as large as 50 kids with grades ranging from 1st to 6th </li>
+              <li>Led distant field trips around California (i.e. amusement park, aquarium, zoo, etc.) </li>
+              <li>Programmed daily activities, coordinated snacks and hot lunches, and managed time wisely </li>
+              <li>Encouraged good attitudes and addressed parents of children with behavioral concerns </li>
+              <li>Upheld professionalism and sustained alertness through all hours of the day</li>
             </ul>
           </div>
           <!-- END: Summer Camp Counselor -->
@@ -244,11 +248,12 @@
             </div>
             <ul class="ml-4 list-disc">
               <li> Officiated basketball, flag football, softball, volleyball, soccer, and floor hockey </li>
-              <li> Trained new officials in various sports by giving presentations on the rules </li>
-              <li> Addressed unruly players, teams, or crowds when the officials were overwhelmed </li>
+              <li> Trained new officials in various sports by giving presentations on the rules and individual feedback </li>
+              <li> Addressed unruly players, teams, or crowds and eased overwhelmed officials </li>
+              <li x-cloak x-show="version === '2'">Operated department software, filled out incident reports, and was First Aid/CPR/AED certified</li>
               <!-- <li>
                 <span>Travelled out-of-state to officiate</span>
-                <a href="https://nirsa.net" target="_blank" class="underline print:no-underline">NIRSA</a>
+                <a href="https://nirsa.net" target="_blank">NIRSA</a>
                 <span>sanctioned tournaments</span>
               </li> -->
             </ul>
@@ -257,9 +262,52 @@
         </div>
       </section>
       <!-- END: Work Experience -->
+      <!-- START: Accomplishments -->
+      <section x-cloak x-show="version === '2'" id="projects">
+        <h2 class="mb-[5px] w-full border-b border-black font-bold uppercase tracking-wider"> Accomplishments </h2>
+        <div class="flex flex-col gap-y-1.5">
+          <!-- START: National Flag Football Official -->
+          <div class="flex flex-col gap-y-1">
+            <div class="flex flex-row justify-between">
+              <div class="flex flex-col">
+                <p class="font-bold">National Flag Football Official</p>
+                <a href="https://nirsa.net/" target="_blank" class="italic"> National Intramural-Recreational Sports Association (NIRSA) </a>
+              </div>
+              <div class="flex flex-col text-right min-w-max">
+                <p class="hidden xs:inline">January 2020</p>
+                <p class="xs:hidden">Jan. '20</p>
+              </div>
+            </div>
+            <ul class="ml-4 list-disc">
+              <li>
+                <span
+                  >In August 2018, I began my journey as a flag football
+                  <a href="https://wellness.okstate.edu/competitive-sports/index.html" target="_blank">official</a> at
+                  <a href="https://go.okstate.edu/" target="_blank">Oklahoma State University</a> , having never officiated anything before. Just a
+                  year and half later, I received a
+                  <a
+                    href="https://play.nirsa.net/wp-content/uploads/2019-nirsa-flag-football-tournament-results-the-univeristy-of-texas-at-austin.pdf"
+                    target="_blank"
+                    >bid</a
+                  >
+                  &mdash; alongside 44 other college students in the nation &mdash; to officiate the
+                  <a href="https://play.nirsa.net/wp-content/uploads/2019-nirsa-flag-football-tournament-national-results.pdf" target="_blank"
+                    >National Tournament</a
+                  >
+                  in <a href="https://goo.gl/maps/MfdUXbPAg5NfuaYe9" target="_blank">Round Rock, Texas</a>. It was an honor and a privilege to
+                  officiate with some of the best in the country as well as receive feedback from the great clinicians in the committee.
+                </span>
+              </li>
+            </ul>
+          </div>
+          <!-- END: National Flag Football Official -->
+        </div>
+      </section>
+      <!-- END: Accomplishments -->
       <!-- START: Projects -->
-      <section x-cloak x-show="version === '1'" id="projects">
-        <h2 class="mb-[5px] w-full border-b border-black font-bold uppercase tracking-wider"> Projects </h2>
+      <section id="projects">
+        <h2 x-cloak x-show="version === '1'" class="mb-[5px] w-full border-b border-black font-bold uppercase tracking-wider"> Projects </h2>
+        <h2 x-cloak x-show="version === '2'" class="mb-[5px] w-full border-b border-black font-bold uppercase tracking-wider"> Projects/Hobbies </h2>
         <div class="flex flex-col gap-y-1.5">
           <!-- START: Blockey Hockey -->
           <div class="flex flex-col gap-y-1">
@@ -276,21 +324,21 @@
             <ul class="ml-4 list-disc">
               <li>
                 <span>What started out as a simple command block-based</span>
-                <a href="https://www.minecraft.net" target="_blank" class="underline print:no-underline"> Minecraft</a>
+                <a href="https://www.minecraft.net" target="_blank"> Minecraft</a>
                 <span>mini-game,</span>
-                <a href="https://youtu.be/n7iLQbPl4Rg" target="_blank" class="underline print:no-underline"> Blockey Hockey</a>
+                <a href="https://youtu.be/n7iLQbPl4Rg" target="_blank"> Blockey Hockey</a>
                 <span>has evolved into a full-stack, Java-developed Minecraft plugin using the</span>
-                <a href="https://papermc.io" target="_blank" class="underline print:no-underline"> Spigot/Paper API.</a>
+                <a href="https://papermc.io" target="_blank"> Spigot/Paper API.</a>
                 <span>Today, the game is accompanied by a</span>
-                <a href="https://blockeyhockey.net" target="_blank" class="underline print:no-underline">website</a>
+                <a href="https://blockeyhockey.net/scores" target="_blank">website</a>
                 <span>and has fully automated, in-game </span>
-                <a href="https://blockeyhockey.net/scores" target="_blank" class="underline print:no-underline">statistic tracking.</a>
+                <a href="https://blockeyhockey.net/b/ZdOL9dagQJrE-" target="_blank">statistic tracking.</a>
               </li>
             </ul>
           </div>
           <!-- END: Blockey Hockey -->
           <!-- START: Greenhouse -->
-          <div class="flex flex-col gap-y-1">
+          <div x-cloak x-show="version === '1'" class="flex flex-col gap-y-1">
             <div class="flex flex-row justify-between">
               <div class="flex flex-col">
                 <p class="font-bold">Drag and Drop Greenhouse</p>

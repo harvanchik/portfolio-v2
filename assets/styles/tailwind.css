@@ -15,7 +15,10 @@
 
 @layer base {
   #resume * a {
-    @apply w-max hover:text-cyan-500 hover:underline;
+    @apply hover:text-cyan-500 hover:underline;
+  }
+  #resume * a:not(.italic) {
+    @apply underline w-max print:no-underline;
   }
 
   [x-cloak] {
