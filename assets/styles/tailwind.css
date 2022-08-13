@@ -12,6 +12,19 @@
     margin-left: auto;
     margin-right: auto;
   }
+  .link-underline {
+    border-bottom-width: 0;
+    background-image: linear-gradient(transparent, transparent), linear-gradient(#4338ca, #4338ca);
+    background-size: 0 2px;
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 0.5s ease-in-out;
+  }
+
+  .link-underline:hover {
+    background-size: 100% 2px;
+    background-position: 0 100%;
+  }
 }
 
 @layer base {
@@ -19,7 +32,7 @@
     @apply hover:text-cyan-500 hover:underline;
   }
   #resume * a:not(.italic) {
-    @apply underline w-max print:no-underline;
+    @apply w-max underline print:no-underline;
   }
 
   [x-cloak] {
