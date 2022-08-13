@@ -4,6 +4,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
+        manrope: ['Manrope', 'san-serif'],
         handwriting: ['Gaegu', 'cursive'],
       },
       screens: {

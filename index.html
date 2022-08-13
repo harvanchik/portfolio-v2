@@ -7,30 +7,47 @@
     <link rel="stylesheet" href="./assets/styles/styles.css" />
     <!-- Scripts -->
     <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
-    <style>
-      section#about-me {
-        background-color: #f0f0f0;
-        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='125' height='125' viewBox='0 0 100 100'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23b3b3b3' fill-opacity='0.29'%3E%3Cpath opacity='.5' d='M96 95h4v1h-4v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9zm-1 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9z'/%3E%3Cpath d='M6 5V0H5v5H0v1h5v94h1V6h94V5H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
-      }
-    </style>
   </head>
 
-  <!-- START: Page -->
-  <body class="min-h-screen">
-    <!-- START: Header -->
-    <section class="min-h-screen text-white bg-gradient-to-br from-cyan-400/60 via-cyan-500/80 to-cyan-500">
-      <!-- END: Navigation -->
-      <!-- START: Introduction -->
-      <div class="flex flex-col layout">
-        <h1 class="flex flex-col text-white py-52">
-          <span class="text-3xl font-semibold tracking-tight">Portfolio is a Work in Progress</span>
-          <!-- <span class="font-extrabold tracking-tighter uppercase text-8xl">Jake Harvanchik</span> -->
-        </h1>
-      </div>
-      <!-- END: Introduction -->
-      <!-- <div class="layout"> <h1>Jake Harvanchik</h1> </div> -->
-    </section>
-    <!-- END: Header -->
+  <body>
+    <!-- START: Navigation Bar -->
+    <nav class="flex h-10">
+      <section class="flex flex-row justify-between my-auto text-lg tracking-tight layout">
+        <div id="logo">LOGO</div>
+        <ul class="flex flex-row space-x-5 font-semibold">
+          <li>Home</li>
+          <li>About Me</li>
+          <li>My Work</li>
+          <li>Contact Me</li>
+        </ul>
+      </section>
+    </nav>
+    <!-- END: Navigation Bar -->
+    <!-- START: Content -->
+    <main class="flex-1">
+      <!-- START: Hero -->
+      <section class="flex flex-col py-20 layout">
+        <!-- TODO: hover over last name will open a small "dictionary looking" modal that shows how to pronounce -->
+        <h1 class="w-[87%] text-5xl font-bold tracking-tight text-gray-800"
+          >The name's <span class="text-indigo-600">/ˈhär-van-chik/</span>. I code things and study computer science.</h1
+        >
+        <div class="flex flex-row pt-10 space-x-5 text-xl">
+          <a
+            href="#"
+            type="button"
+            class="py-3 font-semibold text-white transition-colors duration-150 bg-indigo-500 rounded-full shadow-sm cursor-pointer select-none px-7 hover:bg-indigo-600 hover:shadow-lg active:bg-indigo-700/95 active:shadow-xl"
+            >See my work</a
+          >
+          <a
+            href="#"
+            type="button"
+            class="py-3 font-semibold text-gray-800 transition-all duration-150 bg-gray-200 rounded-full shadow-sm cursor-pointer select-none active: px-7 hover:bg-gray-300 hover:shadow-lg active:bg-gray-400/60 active:shadow-xl"
+            >Learn about me</a
+          >
+        </div>
+      </section>
+      <!-- END: Hero -->
+    </main>
+    <!-- END: Content -->
   </body>
-  <!-- END: Page -->
 </html>
