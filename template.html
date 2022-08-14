@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html id="home" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="description" content="Jake's person portfolio website." />
+    <title>Jake Harvanchik</title>
+    <link rel="stylesheet" href="./assets/styles/styles.css" />
+    <!-- Scripts -->
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+  </head>
+
+  <body class="bg-gray-50/60">
+    <!-- START: Navigation Bar -->
+    <nav class="flex h-20">
+      <section class="flex flex-row justify-between my-auto text-lg layout">
+        <div id="logo">LOGO</div>
+        <ul class="flex flex-row space-x-5 font-bold">
+          <li><a href="#" class="text-indigo-600 transition-all duration-200 link-underline">Home</a></li>
+          <li><a href="#" class="transition-all duration-200 link-underline hover:text-indigo-600">About Me</a></li>
+          <li><a href="#" class="transition-all duration-200 link-underline hover:text-indigo-600">My Work</a></li>
+          <li><a href="#" class="transition-all duration-200 link-underline hover:text-indigo-600">Contact Me</a></li>
+        </ul>
+      </section>
+    </nav>
+    <!-- END: Navigation Bar -->
+
+    <!-- START: Content -->
+    <main class="flex-1">
+      <!-- START: Hero -->
+      <section class="flex flex-col pt-32 layout">
+        <!-- TODO: hover over last name will open a small "dictionary looking" modal that shows how to pronounce -->
+        <h1 class="w-[87%] text-5xl font-bold tracking-tight text-gray-800">Hey, how'd you get here? This is a secret page. Scram!</h1>
+      </section>
+      <!-- END: Hero -->
+
+      <!-- START: Footer -->
+      <section class="pb-20 layout pt-44">
+        <div class="flex flex-col space-y-8">
+          <!-- START: Bottom Nav -->
+          <ul class="flex flex-row space-x-5 text-lg font-semibold">
+            <li><a href="#" class="transition-all duration-200 link-underline hover:text-indigo-600">Home</a></li>
+            <li><a href="#" class="transition-all duration-200 link-underline hover:text-indigo-600">About Me</a></li>
+            <li><a href="#" class="transition-all duration-200 link-underline hover:text-indigo-600">My Work</a></li>
+            <li><a href="#" class="transition-all duration-200 link-underline hover:text-indigo-600">Contact Me</a></li>
+          </ul>
+          <!-- END: Bottom Nav -->
+          <hr class="h-0.5 w-full bg-indigo-600" />
+          <div class="flex flex-row justify-between">
+            <!-- TODO: update based on current year -->
+            <p class="font-medium font-inter">&copy; 2022 Jake Harvanchik. All Rights Reserved.</p>
+          </div>
+        </div>
+      </section>
+      <!-- END: Footer -->
+    </main>
+    <!-- END: Content -->
+  </body>
+</html>
