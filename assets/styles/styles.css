@@ -1084,10 +1084,6 @@ select{
   height: 0px;
 }
 
-.h-10{
-  height: 2.5rem;
-}
-
 .h-full{
   height: 100%;
 }
@@ -1531,16 +1527,12 @@ select{
   text-align: right;
 }
 
-.font-serif{
-  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
-}
-
 .font-inter{
   font-family: "Inter", san-serif;
 }
 
-.font-manrope{
-  font-family: "Manrope", san-serif;
+.font-serif{
+  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
 }
 
 .text-3xl{
@@ -1589,15 +1581,6 @@ select{
 .text-2xl{
   font-size: 1.5rem;
   line-height: 2rem;
-}
-
-.text-sm{
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-}
-
-.text-\[1rem\]{
-  font-size: 1rem;
 }
 
 .font-semibold{
