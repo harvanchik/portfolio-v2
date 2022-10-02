@@ -1148,6 +1148,10 @@ select{
   max-width: 56rem;
 }
 
+.max-w-\[755px\]{
+  max-width: 755px;
+}
+
 .flex-1{
   flex: 1 1 0%;
 }
@@ -1182,6 +1186,16 @@ select{
 .columns-4{
   -moz-columns: 4;
        columns: 4;
+}
+
+.columns-5{
+  -moz-columns: 5;
+       columns: 5;
+}
+
+.columns-6{
+  -moz-columns: 6;
+       columns: 6;
 }
 
 .grid-cols-3{
@@ -1263,6 +1277,21 @@ select{
 .gap-x-20{
   -moz-column-gap: 5rem;
        column-gap: 5rem;
+}
+
+.gap-x-14{
+  -moz-column-gap: 3.5rem;
+       column-gap: 3.5rem;
+}
+
+.gap-x-8{
+  -moz-column-gap: 2rem;
+       column-gap: 2rem;
+}
+
+.gap-x-11{
+  -moz-column-gap: 2.75rem;
+       column-gap: 2.75rem;
 }
 
 .space-x-5 > :not([hidden]) ~ :not([hidden]){
@@ -1955,6 +1984,20 @@ select{
 
   .print\:max-w-none{
     max-width: none;
+  }
+
+  .print\:max-w-\[705px\]{
+    max-width: 705px;
+  }
+
+  .print\:gap-x-8{
+    -moz-column-gap: 2rem;
+         column-gap: 2rem;
+  }
+
+  .print\:gap-x-7{
+    -moz-column-gap: 1.75rem;
+         column-gap: 1.75rem;
   }
 
   .print\:pb-0{
