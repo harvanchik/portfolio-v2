@@ -2000,6 +2000,11 @@ select{
          column-gap: 1.75rem;
   }
 
+  .print\:gap-x-16{
+    -moz-column-gap: 4rem;
+         column-gap: 4rem;
+  }
+
   .print\:pb-0{
     padding-bottom: 0px;
   }
