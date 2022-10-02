@@ -1598,6 +1598,10 @@ select{
   padding-bottom: 20rem;
 }
 
+.pt-8{
+  padding-top: 2rem;
+}
+
 .text-center{
   text-align: center;
 }
@@ -2025,6 +2029,10 @@ select{
 }
 
 @media print{
+  .print\:-top-3{
+    top: -0.75rem;
+  }
+
   .print\:inline{
     display: inline;
   }
@@ -2078,6 +2086,14 @@ select{
   .print\:gap-x-5{
     -moz-column-gap: 1.25rem;
          column-gap: 1.25rem;
+  }
+
+  .print\:gap-y-1\.5{
+    row-gap: 0.375rem;
+  }
+
+  .print\:gap-y-1{
+    row-gap: 0.25rem;
   }
 
   .print\:pb-0{

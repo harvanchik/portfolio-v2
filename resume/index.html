@@ -20,7 +20,7 @@
     x-data="{ version: new URLSearchParams(location.search).get('v') || '1' }"
     class="layout relative mx-auto h-full max-w-[750px] pt-10 pb-80 font-serif text-xs selection:bg-cyan-500/75 selection:text-white print:max-w-[700px] print:pb-0 print:pt-0 print:text-xs xs:text-sm">
     <!-- START: Page -->
-    <div class="flex flex-col gap-y-2">
+    <div class="flex flex-col gap-y-2 print:gap-y-1.5">
       <!-- START: Header -->
       <section id="header" class="flex flex-col text-center">
         <h1 class="text-xl font-bold print:text-base">Jake Harvanchik</h1>
@@ -436,6 +436,6 @@
       <!-- END: Projects -->
     </div>
     <!-- END: Page -->
-    <span class="absolute bottom-0 left-0 right-0 mx-auto w-max print:hidden">Created with HTML and CSS</span>
+    <span class="absolute bottom-0 left-0 right-0 mx-auto w-max print:hidden">Created with JS, HTML, CSS, & Alpine</span>
   </body>
 </html>
