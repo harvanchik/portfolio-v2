@@ -137,7 +137,11 @@
           <hr class="h-0.5 w-full bg-indigo-600" />
           <div class="flex flex-row justify-between">
             <!-- TODO: update based on current year -->
-            <p class="font-medium font-inter">&copy; 2022 Jake Harvanchik. All Rights Reserved.</p>
+            <p x-data="{ year: new Date().getFullYear() }" class="font-inter font-medium"
+              ><span>&copy;</span>
+              <span x-text="year"></span>
+              <span>Jake Harvanchik. All Rights Reserved.</span>
+            </p>
           </div>
         </div>
       </section>
