@@ -8,8 +8,7 @@
     "dev": "npx tailwindcss -i ./assets/styles/tailwind.css -o ./assets/styles/styles.css --watch",
     "prod": "npx tailwindcss -i ./assets/styles/tailwind.css -o ./assets/styles/styles.css --minify",
     "docs": "npm run prod && gulp",
-    "clean": "gulp clean",
-    "updates": "ncu"
+    "clean": "gulp clean"
   },
   "keywords": [],
   "license": "ISC",
@@ -29,7 +28,7 @@
     "postcss": "^8.4.18",
     "prettier": "^2.7.1",
     "prettier-plugin-tailwindcss": "^0.1.13",
-    "tailwindcss": "^3.1.8",
+    "tailwindcss": "^3.2.0",
     "tailwindcss-textshadow": "^2.1.3"
   }
 }
