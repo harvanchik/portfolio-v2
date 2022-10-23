@@ -1,5 +1,5 @@
 module.exports = {
-  content: ['./**/*.html'],
+  content: ['./**/*.html', './game-card/*.html'],
   darkMode: 'class', // 'media' or 'class'
   theme: {
     extend: {
