@@ -124,7 +124,7 @@
       <!-- END: Projects -->
 
       <!-- START: Footer -->
-      <section class="pb-20 layout pt-44">
+      <section class="layout pt-44">
         <div class="flex flex-col space-y-8">
           <!-- START: Bottom Nav -->
           <ul class="flex flex-row space-x-5 text-lg font-semibold">
@@ -137,12 +137,19 @@
           <hr class="h-0.5 w-full bg-indigo-600" />
           <div class="flex flex-row justify-between">
             <!-- TODO: update based on current year -->
-            <p class="font-medium font-inter">&copy; 2022 Jake Harvanchik. All Rights Reserved.</p>
+            <p x-data="{ year: new Date().getFullYear() }" class="font-medium font-inter"
+              ><span>&copy;</span>
+              <span x-text="year"></span>
+              <span>Jake Harvanchik. All Rights Reserved.</span>
+            </p>
           </div>
         </div>
       </section>
       <!-- END: Footer -->
     </main>
+    <!-- START: Background Clouds -->
+    <!-- <img src="./assets/img/svg/clouds.svg" alt="clouds" class="w-full select-none" /> -->
+    <!-- END: Background Clouds -->
     <!-- END: Content -->
   </body>
 </html>

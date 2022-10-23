@@ -76,9 +76,7 @@ function javascript() {
  */
 function images() {
   return gulp
-    .src([
-      `${root}assets/img/**/*.{png,jpg,jpeg,jfif,gif,webp,pdf,bmp,tif,tiff,raw,cr2,nef,sr2,heif,hdr,ppm,pgm,pbm,pnm,exif}`,
-    ])
+    .src([`${root}assets/img/**/*.{png,jpg,jpeg,jfif,gif,webp,pdf,ico,bmp,tif,tiff,raw,cr2,nef,sr2,heif,hdr,ppm,pgm,pbm,pnm,exif}`])
     .pipe(
       image({
         quiet: true, // set to false to log results for every image processed
@@ -86,6 +84,18 @@ function images() {
     )
     .pipe(rev())
     .pipe(gulp.dest(`${destination}/assets/img`))
+    .pipe(rev.manifest(manifest, { merge: true }))
+    .pipe(gulp.dest(root));
+}
+
+/**
+ * Copy the favicon.ico
+ */
+function favicon() {
+  return gulp
+    .src([`${root}favicon.ico`])
+    .pipe(rev())
+    .pipe(gulp.dest(`${destination}`))
     .pipe(rev.manifest(manifest, { merge: true }))
     .pipe(gulp.dest(root));
 }
@@ -120,7 +130,7 @@ function clean() {
 /**
  * The default task (triggered when running 'gulp' in the console)
  */
-gulp.task('default', gulp.series(clean, styles, javascript, images, svg, html, cname));
+gulp.task('default', gulp.series(clean, styles, javascript, images, svg, favicon, html, cname));
 /**
  * Task to remove the destination folder and its contents.
  */
