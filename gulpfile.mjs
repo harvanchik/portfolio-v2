@@ -1,6 +1,6 @@
 import gulp from 'gulp';
 import { readFileSync } from 'fs';
-import del from 'del';
+import { deleteAsync } from 'del';
 import htmlmin from 'gulp-htmlmin';
 import jsmin from 'gulp-minify';
 import svgmin from 'gulp-svgmin';
@@ -124,7 +124,7 @@ function cname() {
  * Remove all content within the destination folder
  */
 function clean() {
-  return del([`${destination}`]);
+  return deleteAsync([`${destination}`]);
 }
 
 /**
