@@ -1935,34 +1935,14 @@ select{
          column-gap: 1.25rem;
   }
 
-  .print\:gap-x-6{
-    -moz-column-gap: 1.5rem;
-         column-gap: 1.5rem;
-  }
-
-  .print\:gap-x-7{
-    -moz-column-gap: 1.75rem;
-         column-gap: 1.75rem;
-  }
-
-  .print\:gap-x-16{
-    -moz-column-gap: 4rem;
-         column-gap: 4rem;
-  }
-
-  .print\:gap-x-10{
-    -moz-column-gap: 2.5rem;
-         column-gap: 2.5rem;
-  }
-
   .print\:gap-x-12{
     -moz-column-gap: 3rem;
          column-gap: 3rem;
   }
 
-  .print\:gap-x-14{
-    -moz-column-gap: 3.5rem;
-         column-gap: 3.5rem;
+  .print\:gap-x-7{
+    -moz-column-gap: 1.75rem;
+         column-gap: 1.75rem;
   }
 
   .print\:pb-0{
