@@ -14,7 +14,7 @@
   <body class="bg-gray-50/60">
     <!-- START: Navigation Bar -->
     <nav class="flex h-20">
-      <section class="flex flex-row justify-between my-auto text-lg layout">
+      <section class="layout my-auto flex flex-row justify-between text-lg">
         <!-- START: Logo -->
         <a href="./">
           <svg class="w-56" viewBox="-10 0 379.8 77.047" xmlns="http://www.w3.org/2000/svg">
@@ -36,10 +36,10 @@
         </a>
         <!-- END: Logo -->
         <ul class="flex flex-row space-x-5 font-bold">
-          <li class="my-auto"><a href="#" class="text-indigo-600 transition-all duration-200 link-underline">Home</a></li>
-          <li class="my-auto"><a href="#" class="transition-all duration-200 link-underline hover:text-indigo-600">About Me</a></li>
-          <li class="my-auto"><a href="#" class="transition-all duration-200 link-underline hover:text-indigo-600">My Work</a></li>
-          <li class="my-auto"><a href="#" class="transition-all duration-200 link-underline hover:text-indigo-600">Contact Me</a></li>
+          <li class="my-auto"><a href="#" class="link-underline text-indigo-600 transition-all duration-200">Home</a></li>
+          <li class="my-auto"><a href="#" class="link-underline transition-all duration-200 hover:text-indigo-600">About Me</a></li>
+          <li class="my-auto"><a href="#" class="link-underline transition-all duration-200 hover:text-indigo-600">My Work</a></li>
+          <li class="my-auto"><a href="#" class="link-underline transition-all duration-200 hover:text-indigo-600">Contact Me</a></li>
         </ul>
       </section>
     </nav>
@@ -48,12 +48,12 @@
     <!-- START: Content -->
     <main class="flex-1">
       <!-- START: Hero -->
-      <section class="flex flex-col pt-32 layout">
+      <section class="layout flex flex-col pt-32">
         <!-- TODO: hover over last name will open a small "dictionary looking" modal that shows how to pronounce -->
         <h1 class="w-[87%] text-5xl font-bold tracking-tight text-gray-800"
           >The name's <span class="text-indigo-600">/ˈhär-van-chik/</span>. I code things and study computer science.</h1
         >
-        <div class="flex flex-row pt-10 space-x-5 text-xl">
+        <div class="flex flex-row space-x-5 pt-10 text-xl">
           <a
             href="#"
             type="button"
@@ -72,26 +72,26 @@
       <!-- END: Hero -->
 
       <!-- START: Projects -->
-      <section class="flex flex-col layout pt-44">
+      <section class="layout flex flex-col pt-44">
         <h2 class="text-4xl font-bold tracking-tight text-gray-700">Some cool things I made</h2>
         <div class="grid grid-cols-3 gap-x-7 pt-9">
           <!-- START: Card 1 -->
-          <div class="flex flex-col w-auto h-auto p-4 space-y-3 transition-shadow bg-gray-100 shadow-md group rounded-xl hover:shadow-lg">
+          <div class="group flex h-auto w-auto flex-col space-y-3 rounded-xl bg-gray-100 p-4 shadow-md transition-shadow hover:shadow-lg">
             <a
               href="https://github.com/harvanchik/portfolio-v2"
               target="_blank"
-              class="text-xl font-semibold text-gray-800 transition-all duration-200 w-max hover:text-indigo-600 group-hover:text-2xl"
+              class="w-max text-xl font-semibold text-gray-800 transition-all duration-200 hover:text-indigo-600 group-hover:text-2xl"
               >portfolio-v2</a
             >
             <p class="text-[1.075rem] text-gray-700">The second version of my personal portfolio website &ndash; the site your viewing right now.</p>
           </div>
           <!-- END: Card 1 -->
           <!-- START: Card 2 -->
-          <div class="flex flex-col w-auto h-auto p-4 space-y-3 transition-shadow bg-gray-100 shadow-md group rounded-xl hover:shadow-lg">
+          <div class="group flex h-auto w-auto flex-col space-y-3 rounded-xl bg-gray-100 p-4 shadow-md transition-shadow hover:shadow-lg">
             <a
               href="https://github.com/harvanchik/tailwind-template"
               target="_blank"
-              class="text-xl font-semibold text-gray-800 transition-all duration-200group- w-max hover:text-2xl hover:text-indigo-600 group-hover:text-2xl"
+              class="duration-200group- w-max text-xl font-semibold text-gray-800 transition-all hover:text-2xl hover:text-indigo-600 group-hover:text-2xl"
               >tailwind-template</a
             >
             <p class="text-[1.075rem] text-gray-700"
@@ -101,22 +101,22 @@
           </div>
           <!-- END: Card 2 -->
           <!-- START: Card 3 -->
-          <div class="flex flex-col w-auto h-auto p-4 space-y-3 transition-shadow bg-gray-100 shadow-md group rounded-xl hover:shadow-lg">
+          <div class="group flex h-auto w-auto flex-col space-y-3 rounded-xl bg-gray-100 p-4 shadow-md transition-shadow hover:shadow-lg">
             <a
               href="https://github.com/BlockeySports"
               target="_blank"
-              class="text-xl font-semibold text-gray-800 transition-all duration-200group- w-max hover:text-2xl hover:text-indigo-600 group-hover:text-2xl"
+              class="duration-200group- w-max text-xl font-semibold text-gray-800 transition-all hover:text-2xl hover:text-indigo-600 group-hover:text-2xl"
               >blockey-hockey</a
             >
             <p class="text-[1.075rem] text-gray-700">A hockey game plugin, website, and back-end project that dates back to 2014.</p>
           </div>
           <!-- END: Card 3 -->
         </div>
-        <div class="flex pt-5 ml-auto text-lg">
+        <div class="ml-auto flex pt-5 text-lg">
           <a
             href="https://github.com/harvanchik?tab=repositories"
             target="_blank"
-            class="transition-all duration-200 link-underline hover:text-indigo-600"
+            class="link-underline transition-all duration-200 hover:text-indigo-600"
             >View all my projects</a
           >
         </div>
@@ -128,16 +128,15 @@
         <div class="flex flex-col space-y-8">
           <!-- START: Bottom Nav -->
           <ul class="flex flex-row space-x-5 text-lg font-semibold">
-            <li><a href="#" class="transition-all duration-200 link-underline hover:text-indigo-600">Home</a></li>
-            <li><a href="#" class="transition-all duration-200 link-underline hover:text-indigo-600">About Me</a></li>
-            <li><a href="#" class="transition-all duration-200 link-underline hover:text-indigo-600">My Work</a></li>
-            <li><a href="#" class="transition-all duration-200 link-underline hover:text-indigo-600">Contact Me</a></li>
+            <li><a href="#" class="link-underline transition-all duration-200 hover:text-indigo-600">Home</a></li>
+            <li><a href="#" class="link-underline transition-all duration-200 hover:text-indigo-600">About Me</a></li>
+            <li><a href="#" class="link-underline transition-all duration-200 hover:text-indigo-600">My Work</a></li>
+            <li><a href="#" class="link-underline transition-all duration-200 hover:text-indigo-600">Contact Me</a></li>
           </ul>
           <!-- END: Bottom Nav -->
           <hr class="h-0.5 w-full bg-indigo-600" />
           <div class="flex flex-row justify-between">
-            <!-- TODO: update based on current year -->
-            <p x-data="{ year: new Date().getFullYear() }" class="font-medium font-inter"
+            <p x-data="{ year: new Date().getFullYear() }" class="font-inter font-medium"
               ><span>&copy;</span>
               <span x-text="year"></span>
               <span>Jake Harvanchik. All Rights Reserved.</span>
