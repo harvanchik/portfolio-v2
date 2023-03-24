@@ -32,10 +32,15 @@
     @apply hover:text-cyan-500 hover:underline;
   }
   #resume * a:not(.italic) {
-    @apply underline w-max print:no-underline;
+    @apply w-max underline print:no-underline;
   }
 
   [x-cloak] {
     display: none !important;
+  }
+
+  .resume a.italic,
+  .resume a.font-bold {
+    @apply !no-underline hover:!underline;
   }
 }
