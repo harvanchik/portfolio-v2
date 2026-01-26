@@ -22,5 +22,6 @@
         "textshadow"
     ],
     "liveServer.settings.host": "localhost",
-    "liveServer.settings.port": 1313
+    "liveServer.settings.port": 1313,
+    "workbench.colorTheme": "Default Dark+"
 }
