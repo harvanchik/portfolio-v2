@@ -3,152 +3,333 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-    <meta name="description" content="Jake's person portfolio website." />
-    <title>Jake Harvanchik</title>
+    <meta
+      name="description"
+      content="Jake Harvanchik builds polished web products and practical developer tools, from portfolio systems to production client platforms." />
+    <title>Jake Harvanchik | Software Developer</title>
     <link rel="icon" type="image/x-icon" href="./favicon.ico" />
     <link rel="stylesheet" href="./assets/styles/styles.css" />
-    <!-- Scripts -->
-    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
   </head>
-
-  <body class="bg-gray-50/60">
-    <!-- START: Navigation Bar -->
-    <nav class="flex h-20">
-      <section class="layout my-auto flex flex-row justify-between text-lg">
-        <!-- START: Logo -->
-        <a href="./">
-          <svg class="w-56" viewBox="-10 0 379.8 77.047" xmlns="http://www.w3.org/2000/svg">
-            <g transform="matrix(1.1973 0 0 1.1973 -26.762 -16.34)" fill="#6366F1" featurekey="QMusi1-0">
-              <g transform="translate(0 -952.36)" xmlns="http://www.w3.org/2000/svg">
-                <path
-                  transform="translate(0 952.36)"
-                  d="m14 22v1 42 1h1 27.625l-3.3438 10h-8.2812v2h38v-2h-8.2812l-3.3438-10h27.625 1v-1-35h-2v24h-68v-30h70v-2h-71-1zm2 34h68v8h-68v-8zm34 2c-1.1046 0-2 0.89543-2 2s0.89543 2 2 2 2-0.89543 2-2-0.89543-2-2-2zm-5.2812 8h10.562l3.3438 10h-17.25l3.3438-10z"
-                  color=""
-                  fill="#6366F1"
-                  style="block-progression: tb; text-indent: 0; text-transform: none" />
-              </g>
-            </g>
-            <g transform="matrix(2.655 0 0 2.655 107.12 14.123)" fill="#111" featurekey="UyNsn2-0">
-              <path
-                d="m1.28 8.4c0 0.01334-0.09002 0.019961-0.27002 0.019961h-0.59-0.84l1.36-2.44h3.36v4.52c0.28-0.26666 0.62666-0.50332 1.04-0.70998s0.90668-0.31 1.48-0.31c1.1867 0 2.07 0.33 2.65 0.99s0.87 1.71 0.87 3.15v6.38h-3.04v-5.98c0-0.52-0.12-0.93334-0.36-1.24s-0.60666-0.46-1.1-0.46c-0.42666 0-0.79 0.11666-1.09 0.35s-0.45 0.67668-0.45 1.33v6h-3.06zm16.32 7.02c-0.13334-0.02666-0.2733-0.04338-0.41996-0.050038s-0.27332-0.01-0.37998-0.01c-0.56 0-1.0133 0.08666-1.36 0.26s-0.52 0.47334-0.52 0.9c0 0.26666 0.06334 0.47666 0.19 0.63s0.28332 0.26668 0.46998 0.34002 0.38332 0.11668 0.58998 0.13002 0.38332 0.02 0.52998 0.02c0.26666 0 0.56666-0.03334 0.9-0.1v-2.12zm-1.04-2.2c0.10666 0 0.24996 0.0033594 0.42996 0.01002s0.38334 0.01666 0.61 0.03c-0.01334-0.52-0.19668-0.85666-0.55002-1.01s-0.81-0.23-1.37-0.23c-0.30666 0-0.66 0.03666-1.06 0.11s-0.83334 0.18334-1.3 0.33l-0.32-1.1c-0.04-0.14666-0.09666-0.36-0.17-0.64s-0.12334-0.5-0.15-0.66c0.66666-0.22666 1.2967-0.39 1.89-0.49s1.13-0.15 1.61-0.15c1.4133 0 2.5066 0.33666 3.28 1.01s1.16 1.75 1.16 3.23v5.86c-0.52 0.14666-1.12 0.29-1.8 0.43s-1.4133 0.21-2.2 0.21c-0.69334 0-1.3233-0.06-1.89-0.18s-1.0533-0.32-1.46-0.6-0.72-0.64666-0.94-1.1-0.33-1.0067-0.33-1.66 0.13666-1.2 0.41-1.64 0.62668-0.79 1.06-1.05 0.92-0.44334 1.46-0.55 1.0833-0.16 1.63-0.16zm9.6-3.3c0.16-0.10666 0.38332-0.21 0.66998-0.31s0.61-0.15 0.97-0.15c0.30666 0 0.55666 0.01334 0.75 0.04s0.29 0.03332 0.29 0.01998v2.66c-0.30666-0.02666-0.60666-0.03332-0.9-0.01998-0.25334 0.02666-0.51668 0.07-0.79002 0.13s-0.52334 0.17-0.75 0.33c-0.26666 0.18666-0.45666 0.44-0.57 0.76s-0.17 0.76-0.17 1.32v5.32h-3v-7.94h-1.62l1.28-2.54h3.34v0.78c0.06666-0.05334 0.12666-0.10668 0.18-0.16002 0.05334-0.04 0.10668-0.08334 0.16002-0.13s0.10668-0.08332 0.16002-0.10998zm3.34-0.38h3.48l1.96 6.62 0.04 0.24 0.04-0.24 1.92-6.62h3.44l-3.92 10.48h-3.12zm17.06 5.88c-0.13334-0.02666-0.2733-0.04338-0.41996-0.050038s-0.27332-0.01-0.37998-0.01c-0.56 0-1.0133 0.08666-1.36 0.26s-0.52 0.47334-0.52 0.9c0 0.26666 0.06334 0.47666 0.19 0.63s0.28332 0.26668 0.46998 0.34002 0.38332 0.11668 0.58998 0.13002 0.38332 0.02 0.52998 0.02c0.26666 0 0.56666-0.03334 0.9-0.1v-2.12zm-1.04-2.2c0.10666 0 0.24996 0.0033594 0.42996 0.01002s0.38334 0.01666 0.61 0.03c-0.01334-0.52-0.19668-0.85666-0.55002-1.01s-0.81-0.23-1.37-0.23c-0.30666 0-0.66 0.03666-1.06 0.11s-0.83334 0.18334-1.3 0.33l-0.32-1.1c-0.04-0.14666-0.09666-0.36-0.17-0.64s-0.12334-0.5-0.15-0.66c0.66666-0.22666 1.2967-0.39 1.89-0.49s1.13-0.15 1.61-0.15c1.4133 0 2.5066 0.33666 3.28 1.01s1.16 1.75 1.16 3.23v5.86c-0.52 0.14666-1.12 0.29-1.8 0.43s-1.4133 0.21-2.2 0.21c-0.69334 0-1.3233-0.06-1.89-0.18s-1.0533-0.32-1.46-0.6-0.72-0.64666-0.94-1.1-0.33-1.0067-0.33-1.66 0.13666-1.2 0.41-1.64 0.62668-0.79 1.06-1.05 0.92-0.44334 1.46-0.55 1.0833-0.16 1.63-0.16zm6.2-1.18h-1.68l1.32-2.48h2.9l0.26 1.12c0.33334-0.36 0.73-0.66 1.19-0.9s0.99-0.36 1.59-0.36c1.2133 0 2.1134 0.32334 2.7 0.97s0.88 1.67 0.88 3.07v6.54h-3.04v-6.02c0-0.61334-0.15-1.0533-0.45-1.32s-0.68334-0.4-1.15-0.4c-0.38666 0-0.73332 0.13-1.04 0.39s-0.46 0.69-0.46 1.29v6.06h-3.02v-7.96zm19.8 6.84c-0.53334 0.42666-1.1067 0.74334-1.72 0.95s-1.24 0.31-1.88 0.31c-0.69334 0-1.3467-0.09334-1.96-0.28s-1.15-0.49-1.61-0.91-0.82334-0.96666-1.09-1.64-0.4-1.49-0.4-2.45c0-0.94666 0.13334-1.7567 0.4-2.43s0.63-1.2267 1.09-1.66 0.99666-0.75334 1.61-0.96 1.2667-0.31 1.96-0.31c0.42666 0 0.89332 0.06 1.4 0.18s1.0133 0.3 1.52 0.54l-1.32 2.16c-0.22666-0.10666-0.49332-0.18332-0.79998-0.22998s-0.57332-0.07-0.79998-0.07c-0.61334 0-1.1233 0.21666-1.53 0.65s-0.61 1.1433-0.61 2.13c0 0.50666 0.05334 0.92 0.16 1.24s0.25666 0.58 0.45 0.78 0.42 0.34666 0.68 0.44 0.54334 0.15334 0.85 0.18c0.41334 0.04 0.82334 0.0066602 1.23-0.1s0.77-0.28 1.09-0.52zm1.38-10.48c0 0.01334-0.09002 0.019961-0.27002 0.019961h-0.59-0.84l1.36-2.44h3.36v4.52c0.28-0.26666 0.62666-0.50332 1.04-0.70998s0.90668-0.31 1.48-0.31c1.1867 0 2.07 0.33 2.65 0.99s0.87 1.71 0.87 3.15v6.38h-3.04v-5.98c0-0.52-0.12-0.93334-0.36-1.24s-0.60666-0.46-1.1-0.46c-0.42666 0-0.79 0.11666-1.09 0.35s-0.45 0.67668-0.45 1.33v6h-3.06zm14.46 1.16v10.44h-3.02v-7.22l0.1-0.72h-1.72l1.36-2.5h3.28zm-0.08-0.86h-3v-2.72h3v2.72zm2.26-0.26h-1.48l1.28-2.46h3.22v14.02h-3.02v-11.56zm3 6.16 2.58-5.04h3.42l-2.68 4.9c0.24 0.42666 0.49 0.87666 0.75 1.35s0.52334 0.95 0.79 1.43 0.53 0.95666 0.79 1.43 0.51 0.91668 0.75 1.33h-3.4z" />
-            </g>
-          </svg>
-        </a>
-        <!-- END: Logo -->
-        <ul class="flex flex-row space-x-5 font-bold">
-          <li class="my-auto"><a href="#" class="link-underline text-indigo-600 transition-all duration-200">Home</a></li>
-          <li class="my-auto"><a href="#" class="link-underline transition-all duration-200 hover:text-indigo-600">About Me</a></li>
-          <li class="my-auto"><a href="#" class="link-underline transition-all duration-200 hover:text-indigo-600">My Work</a></li>
-          <li class="my-auto"><a href="#" class="link-underline transition-all duration-200 hover:text-indigo-600">Contact Me</a></li>
-        </ul>
-      </section>
-    </nav>
-    <!-- END: Navigation Bar -->
-
-    <!-- START: Content -->
-    <main class="flex-1">
-      <!-- START: Hero -->
-      <section class="layout flex flex-col pt-32">
-        <!-- TODO: hover over last name will open a small "dictionary looking" modal that shows how to pronounce -->
-        <h1 class="w-[87%] text-5xl font-bold tracking-tight text-gray-800"
-          >The name's <span class="text-indigo-600">/ˈhär-van-chik/</span>. I code things and study computer science.</h1
-        >
-        <div class="flex flex-row space-x-5 pt-10 text-xl">
-          <a
-            href="#"
-            type="button"
-            class="cursor-pointer select-none rounded-full bg-indigo-500 py-3 px-7 font-semibold text-white shadow-md transition-all duration-150 hover:bg-indigo-600 hover:shadow-lg active:translate-y-0.5 active:bg-indigo-700/95 active:shadow-xl"
-            >See my work</a
-          >
-          <a
-            href="./resume"
-            target="_blank"
-            type="button"
-            class="cursor-pointer select-none rounded-full bg-gray-200 py-3 px-7 font-semibold text-gray-800 shadow-md transition-all duration-150 hover:bg-gray-300 hover:shadow-lg active:translate-y-0.5 active:bg-gray-400/60 active:shadow-xl"
-            >View my résumé</a
-          >
-        </div>
-      </section>
-      <!-- END: Hero -->
-
-      <!-- START: Projects -->
-      <section class="layout flex flex-col pt-44">
-        <h2 class="text-4xl font-bold tracking-tight text-gray-700">Some cool things I made</h2>
-        <div class="grid grid-cols-3 gap-x-7 pt-9">
-          <!-- START: Card 1 -->
-          <div class="group flex h-auto w-auto flex-col space-y-3 rounded-xl bg-gray-100 p-4 shadow-md transition-shadow hover:shadow-lg">
-            <a
-              href="https://github.com/harvanchik/portfolio-v2"
-              target="_blank"
-              class="w-max text-xl font-semibold text-gray-800 transition-all duration-200 hover:text-indigo-600 group-hover:text-2xl"
-              >portfolio-v2</a
-            >
-            <p class="text-[1.075rem] text-gray-700">The second version of my personal portfolio website &ndash; the site your viewing right now.</p>
+  <body>
+    <div class="site-shell">
+      <header class="site-nav-wrap">
+        <nav class="site-nav">
+          <a href="./" class="brand" aria-label="Go to homepage">
+            <span class="brand-mark" aria-hidden="true">JH</span>
+            <span class="brand-text">Jake Harvanchik</span>
+          </a>
+          <div class="nav-links">
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#process">Process</a>
+            <a href="#contact">Contact</a>
+            <a href="./projects/">Deep Dives</a>
           </div>
-          <!-- END: Card 1 -->
-          <!-- START: Card 2 -->
-          <div class="group flex h-auto w-auto flex-col space-y-3 rounded-xl bg-gray-100 p-4 shadow-md transition-shadow hover:shadow-lg">
-            <a
-              href="https://github.com/harvanchik/tailwind-template"
-              target="_blank"
-              class="duration-200group- w-max text-xl font-semibold text-gray-800 transition-all hover:text-2xl hover:text-indigo-600 group-hover:text-2xl"
-              >tailwind-template</a
-            >
-            <p class="text-[1.075rem] text-gray-700"
-              >A static site template that uses <a href="https://tailwindcss.com/" target="_blank">Tailwind CSS</a> and
-              <a href="https://gulpjs.com/" target="_blank">Gulp</a> making getting started quick and painless.
+        </nav>
+      </header>
+
+      <main>
+        <section class="hero section" id="top">
+          <div class="hero-grid">
+            <div class="hero-copy fx-reveal">
+              <p class="eyebrow">Software Developer | Product-Focused Builder</p>
+              <h1>
+                I build
+                <span>tech-forward products</span>
+                that are usable, fast, and ready for production.
+              </h1>
+              <p class="hero-blurb">
+                I am Jake Harvanchik. I design and ship interfaces, tooling, and interactive experiences that turn ideas into reliable software.
+              </p>
+              <div class="cta-row">
+                <a class="btn btn-primary" href="#projects">Explore My Work</a>
+                <a class="btn btn-secondary" href="./resume/v2" target="_blank" rel="noopener noreferrer">View Resume</a>
+              </div>
+              <div class="chip-row">
+                <span class="chip">Frontend + UX</span>
+                <span class="chip">Svelte / JS / HTML</span>
+                <span class="chip">Product + Engineering</span>
+              </div>
+            </div>
+
+            <aside class="terminal-card fx-reveal">
+              <div class="terminal-head">
+                <span></span>
+                <span></span>
+                <span></span>
+                <p>build-status.log</p>
+              </div>
+              <div class="terminal-body">
+                <p><span>$</span> whoami</p>
+                <p>Jake Harvanchik // software developer</p>
+                <p><span>$</span> focus --2026</p>
+                <p>Interactive products, maintainable systems, and polished UX.</p>
+                <p><span>$</span> featured_repos</p>
+                <p>playims, case-play, tailwind-template, evals</p>
+                <p><span>$</span> production_work</p>
+                <p>agknowledge.com and riddlemethistrivia.com client platforms.</p>
+              </div>
+            </aside>
+          </div>
+        </section>
+
+        <section class="proof-strip section fx-reveal" aria-label="Quick profile facts">
+          <article>
+            <h2>9</h2>
+            <p>Featured Builds</p>
+          </article>
+          <article>
+            <h2>2026</h2>
+            <p>Recent Active Updates</p>
+          </article>
+          <article>
+            <h2>2</h2>
+            <p>Client Platforms in Production</p>
+          </article>
+          <article>
+            <h2>100%</h2>
+            <p>Hands-On Build Ownership</p>
+          </article>
+        </section>
+
+        <section class="section" id="about">
+          <div class="section-heading fx-reveal">
+            <p class="eyebrow">About Me</p>
+            <h2>Engineering mindset with product instincts</h2>
+          </div>
+          <div class="about-grid">
+            <article class="glass-card fx-reveal">
+              <h3>Who I Am</h3>
+              <p>
+                I am a software developer who likes solving practical problems with clean UI and clear architecture. I care about developer experience
+                as much as end-user experience.
+              </p>
+            </article>
+            <article class="glass-card fx-reveal">
+              <h3>How I Work</h3>
+              <p>
+                I ship quickly, then iterate with intent. I prioritize readable systems, performance-conscious frontends, and resilient
+                implementations that can keep growing.
+              </p>
+            </article>
+            <article class="glass-card fx-reveal">
+              <h3>What I Bring</h3>
+              <ul>
+                <li>End-to-end ownership from concept to launch.</li>
+                <li>Strong frontend execution with product-level polish.</li>
+                <li>Practical decision making under real project constraints.</li>
+              </ul>
+            </article>
+          </div>
+        </section>
+
+        <section class="section" id="projects">
+          <div class="section-heading section-heading-inline fx-reveal">
+            <div>
+              <p class="eyebrow">Featured Projects</p>
+              <h2>What I have built</h2>
+            </div>
+            <a href="./projects/" class="text-link">Open full project deep dives</a>
+          </div>
+
+          <div class="project-grid">
+            <article class="project-card project-card-featured fx-reveal">
+              <div class="card-top">
+                <p class="card-tag">Current Core Project</p>
+                <p class="card-meta">SvelteKit 2 | TypeScript | Active</p>
+              </div>
+              <h3>playims.com</h3>
+              <p>
+                A next-generation intramural and tournament management platform built to replace slow, outdated league software with fast, reliable
+                workflows.
+              </p>
+              <p>
+                Multi-tenant architecture with API-first operations, Cloudflare-native deployment, and a modern stack: SvelteKit 2, Svelte 5 runes,
+                TypeScript, TailwindCSS 4, Cloudflare D1, Drizzle ORM, and Zod.
+              </p>
+              <div class="card-links">
+                <a href="https://github.com/PlayIMs" target="_blank" rel="noopener noreferrer">GitHub Org</a>
+                <a href="https://playims.com/" target="_blank" rel="noopener noreferrer">Live Site</a>
+              </div>
+            </article>
+
+            <article class="project-card fx-reveal">
+              <div class="card-top">
+                <p class="card-tag">Product</p>
+                <p class="card-meta">Svelte | Updated Jan 1, 2026</p>
+              </div>
+              <h3>case-play</h3>
+              <p>
+                A simple database for sports case plays and a training tool for classroom sports officials and educators
+                to create case plays, review scenarios, and reveal answers.
+              </p>
+              <p>Built with Svelte and TailwindCSS, backed by Xata using PostgreSQL.</p>
+              <div class="card-links">
+                <a href="https://github.com/harvanchik/case-play" target="_blank" rel="noopener noreferrer">Repository</a>
+                <a href="https://caseplay.org" target="_blank" rel="noopener noreferrer">Live Site</a>
+              </div>
+            </article>
+
+            <article class="project-card fx-reveal">
+              <div class="card-top">
+                <p class="card-tag">Flagship</p>
+                <p class="card-meta">HTML | Updated Feb 6, 2026</p>
+              </div>
+              <h3>portfolio-v2</h3>
+              <p>The second generation of my personal portfolio, focused on sharper storytelling and stronger design systems.</p>
+              <div class="card-links">
+                <a href="https://github.com/harvanchik/portfolio-v2" target="_blank" rel="noopener noreferrer">Repository</a>
+              </div>
+            </article>
+
+            <article class="project-card fx-reveal">
+              <div class="card-top">
+                <p class="card-tag">Client Platform</p>
+                <p class="card-meta">Custom Website Build | 2020</p>
+              </div>
+              <h3>agknowledge.com</h3>
+              <p>Complete rewrite of a customer-facing website to modernize product positioning and user experience.</p>
+              <div class="card-links">
+                <a href="https://agknowledge.com/" target="_blank" rel="noopener noreferrer">Visit Site</a>
+              </div>
+            </article>
+
+            <article class="project-card fx-reveal">
+              <div class="card-top">
+                <p class="card-tag">Minecraft Ecosystem</p>
+                <p class="card-meta">Plugin + Competitive League</p>
+              </div>
+              <h3>blockey-hockey</h3>
+              <p>
+                A Minecraft plugin with complete custom hockey mechanics that grew into a full league ecosystem with thousands of past and present
+                players.
+              </p>
+              <p>I programmed custom physics, plus MySQL-backed storage and REST endpoints for game data, league systems, and integrations.</p>
+              <div class="card-links">
+                <a href="https://github.com/BlockeySports" target="_blank" rel="noopener noreferrer">GitHub Org</a>
+                <a href="https://www.youtube.com/@BlockeySports" target="_blank" rel="noopener noreferrer">YouTube Channel</a>
+              </div>
+            </article>
+
+            <article class="project-card fx-reveal">
+              <div class="card-top">
+                <p class="card-tag">Client Platform</p>
+                <p class="card-meta">HTML | Updated Nov 1, 2025</p>
+              </div>
+              <h3>riddle-me-this-trivia</h3>
+              <p>Branded web platform for a trivia company with a content-first user experience and clear conversion flow.</p>
+              <div class="card-links">
+                <a href="https://github.com/harvanchik/riddle-me-this-trivia" target="_blank" rel="noopener noreferrer">Repository</a>
+                <a href="https://riddlemethistrivia.com/" target="_blank" rel="noopener noreferrer">Live Site</a>
+              </div>
+            </article>
+
+            <article class="project-card fx-reveal">
+              <div class="card-top">
+                <p class="card-tag">Interactive Game</p>
+                <p class="card-meta">Svelte | Updated Sep 20, 2025</p>
+              </div>
+              <h3>tic-tac-squared</h3>
+              <p>
+                A strategic game made of a 3x3 grid of tic-tac-toe boards where the objective is to win three
+                individual boards in a directional row, with AI play and online multiplayer support.
+              </p>
+              <div class="card-links">
+                <a href="https://github.com/harvanchik/tic-tac-squared" target="_blank" rel="noopener noreferrer">Repository</a>
+                <a href="https://tic-tac-squared.vercel.app/" target="_blank" rel="noopener noreferrer">Live Site</a>
+              </div>
+            </article>
+
+            <article class="project-card fx-reveal">
+              <div class="card-top">
+                <p class="card-tag">Team Operations Tool</p>
+                <p class="card-meta">SvelteKit | Jul 2025</p>
+              </div>
+              <h3>evals</h3>
+              <p>An aid for writing evaluations on employee performance with faster drafting and structured feedback workflows.</p>
+              <div class="card-links">
+                <a href="https://github.com/harvanchik/evals" target="_blank" rel="noopener noreferrer">Repository</a>
+                <a href="https://ept.best/" target="_blank" rel="noopener noreferrer">Live Site</a>
+              </div>
+            </article>
+
+            <article class="project-card fx-reveal">
+              <div class="card-top">
+                <p class="card-tag">Developer Starter</p>
+                <p class="card-meta">JavaScript | TailwindCSS + Gulp</p>
+              </div>
+              <h3>tailwind-template</h3>
+              <p>
+                A static site starter template using Tailwind CSS and Gulp with a practical dev-to-production workflow
+                for faster shipping.
+              </p>
+              <div class="card-links">
+                <a href="https://github.com/harvanchik/tailwind-template" target="_blank" rel="noopener noreferrer">Repository</a>
+                <a href="https://harvanchik.github.io/tailwind-template/" target="_blank" rel="noopener noreferrer">Live Site</a>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="section" id="process">
+          <div class="section-heading fx-reveal">
+            <p class="eyebrow">Build Process</p>
+            <h2>How I turn ideas into launched software</h2>
+            <p class="hero-blurb">
+              I love building things. I usually get an idea and work on it nonstop until I have something real to show,
+              with major emphasis on UI/UX quality and workflow efficiency.
             </p>
           </div>
-          <!-- END: Card 2 -->
-          <!-- START: Card 3 -->
-          <div class="group flex h-auto w-auto flex-col space-y-3 rounded-xl bg-gray-100 p-4 shadow-md transition-shadow hover:shadow-lg">
-            <a
-              href="https://github.com/BlockeySports"
-              target="_blank"
-              class="duration-200group- w-max text-xl font-semibold text-gray-800 transition-all hover:text-2xl hover:text-indigo-600 group-hover:text-2xl"
-              >blockey-hockey</a
-            >
-            <p class="text-[1.075rem] text-gray-700">A hockey game plugin, website, and back-end project that dates back to 2014.</p>
+          <div class="process-grid">
+            <article class="process-card fx-reveal">
+              <h3>01. Idea To Working Build</h3>
+              <p>I move quickly from concept to a functional prototype and iterate hard until the product becomes usable.</p>
+            </article>
+            <article class="process-card fx-reveal">
+              <h3>02. UI/UX Is Non-Negotiable</h3>
+              <p>I care deeply about how products look and feel. Interfaces should be appealing, clear, and easy to navigate.</p>
+            </article>
+            <article class="process-card fx-reveal">
+              <h3>03. Efficiency First</h3>
+              <p>I optimize workflows and implementation details so the product runs smoothly for users and operators.</p>
+            </article>
           </div>
-          <!-- END: Card 3 -->
-        </div>
-        <div class="ml-auto flex pt-5 text-lg">
-          <a
-            href="https://github.com/harvanchik?tab=repositories"
-            target="_blank"
-            class="link-underline transition-all duration-200 hover:text-indigo-600"
-            >View all my projects</a
-          >
-        </div>
-      </section>
-      <!-- END: Projects -->
+        </section>
 
-      <!-- START: Footer -->
-      <section class="layout pt-44">
-        <div class="flex flex-col space-y-8">
-          <!-- START: Bottom Nav -->
-          <ul class="flex flex-row space-x-5 text-lg font-semibold">
-            <li><a href="#" class="link-underline transition-all duration-200 hover:text-indigo-600">Home</a></li>
-            <li><a href="#" class="link-underline transition-all duration-200 hover:text-indigo-600">About Me</a></li>
-            <li><a href="#" class="link-underline transition-all duration-200 hover:text-indigo-600">My Work</a></li>
-            <li><a href="#" class="link-underline transition-all duration-200 hover:text-indigo-600">Contact Me</a></li>
-          </ul>
-          <!-- END: Bottom Nav -->
-          <hr class="h-0.5 w-full bg-indigo-600" />
-          <div class="flex flex-row justify-between">
-            <p x-data="{ year: new Date().getFullYear() }" class="font-inter font-medium"
-              ><span>&copy;</span>
-              <span x-text="year"></span>
-              <span>Jake Harvanchik. All Rights Reserved.</span>
-            </p>
+        <section class="section section-tight-top contact-section fx-reveal" id="contact">
+          <p class="eyebrow">Contact</p>
+          <h2>Let's build something that users remember.</h2>
+          <p> I am open to software engineering opportunities where product quality and technical execution both matter. </p>
+          <div class="contact-links">
+            <a class="btn btn-primary" href="mailto:resume@harvhouse.com">resume@harvhouse.com</a>
+            <a class="btn btn-secondary" href="https://github.com/harvanchik" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a class="btn btn-secondary" href="https://www.linkedin.com/in/harvanchik" target="_blank" rel="noopener noreferrer">LinkedIn</a>
           </div>
-        </div>
-      </section>
-      <!-- END: Footer -->
-    </main>
-    <!-- START: Background Clouds -->
-    <!-- <img src="./assets/img/svg/clouds.svg" alt="clouds" class="w-full select-none" /> -->
-    <!-- END: Background Clouds -->
-    <!-- END: Content -->
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <p>(c) <span id="year"></span> Jake Harvanchik. Built with intent.</p>
+      </footer>
+    </div>
+
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+
+      const revealItems = document.querySelectorAll('.fx-reveal');
+      const observer = new IntersectionObserver(
+        entries => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add('is-visible');
+              observer.unobserve(entry.target);
+            }
+          });
+        },
+        { threshold: 0.15 }
+      );
+
+      revealItems.forEach(item => observer.observe(item));
+    </script>
   </body>
 </html>
