@@ -117,7 +117,8 @@ function svg() {
  * Copy CNAME
  */
 function cname() {
-  return gulp.src([`${root}CNAME`]).pipe(gulp.dest(destination));
+  // Optional for custom domain setups; skip silently when no CNAME exists.
+  return gulp.src([`${root}CNAME`], { allowEmpty: true }).pipe(gulp.dest(destination));
 }
 
 /**
